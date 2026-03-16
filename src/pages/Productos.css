@@ -1,0 +1,12 @@
+.productos-page {
+  animation: fadeUp 0.3s ease;
+}
+
+.td-precio {
+  font-weight: 600;
+  color: var(--green);
+}
+
+.muted {
+  color: var(--text-muted);
+}

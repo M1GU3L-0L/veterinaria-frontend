@@ -1,0 +1,28 @@
+.app-layout {
+  display: flex;
+  min-height: 100vh;
+}
+
+.app-main {
+  margin-left: 240px;
+  flex: 1;
+  padding: 36px 40px;
+  animation: fadeUp 0.3s ease;
+  transition: margin-left 0.25s ease;
+}
+
+.app-main.sidebar-collapsed {
+  margin-left: 0;
+}
+
+@media (max-width: 768px) {
+  .app-main {
+    margin-left: 0;
+    padding: 20px;
+  }
+}
+
+.app-main-login {
+  flex: 1;
+  padding: 0;
+}
